@@ -10,8 +10,11 @@ int main() {
     kb_set("name", "Erin");
     kb_set("role", "Engineer");
     printf("Name: %s\n", kb_get("name"));
-
-    kb_delete("role");
+    printf("Name: %s\n", kb_get("role"));
+	
+	
+	//kb_delete("name");
+    //kb_delete("role");
     save_to_file("store.txt");
 
     kb_free();
