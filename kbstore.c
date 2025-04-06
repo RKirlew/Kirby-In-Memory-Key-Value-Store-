@@ -5,7 +5,7 @@
 #include <string.h>
 #include <pthread.h>
 
-static Entry* head=NULL;
+Entry* head= NULL;
 static pthread_mutex_t lock;
 
 void kb_init(){
